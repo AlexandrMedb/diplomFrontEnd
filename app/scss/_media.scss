@@ -1,0 +1,66 @@
+@media (max-width: 768px) {
+  #imgBox{
+    div{
+      width: 90%;
+      left: 5%;
+    }
+  }
+  body{display: block}
+  .btnMenu{
+    position: fixed;
+    // color: $mainGrey;
+    background: rgba(186, 187, 187, 0.2);
+    margin-top: 40px;
+    padding: 5px;
+    border-radius: 4px;
+    transition: all 600ms ease;
+     left: 0;
+    // z-index: 0;
+  }
+  .mFoot{
+    article{
+      width: 47% !important;
+      margin-right: 0 !important;
+
+    }
+  }
+
+  menu{
+    position: absolute;
+    z-index: 999;
+    height : 1500px;
+  }
+}
+
+@media (max-width: 425px) {
+  .imgHead{width:100% !important;
+  }
+  article{
+    width: 100%!important;
+    border-left: 0!important;
+    padding-top: 10px !important;
+    display: block !important;
+
+  }
+  .mFoot{//ПЕРЕБИТЬ MEDIA 768
+    article{
+      width: 100% !important;
+      margin-right: 0 !important;
+
+    }}
+
+  footer{
+    .wepSocial{
+      display: block !important;
+    }
+    i{
+      align-self: center;
+    }
+  }
+}
+
+@media (max-width: 320px) {
+  h2{
+    width: 250px;
+  }
+}
